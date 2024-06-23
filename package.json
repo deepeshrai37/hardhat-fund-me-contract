@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-fund-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepesh Rai",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.1.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.4.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "hardhat-deploy": "^0.12.4"
+  }
+}
